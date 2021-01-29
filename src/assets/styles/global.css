@@ -1,0 +1,48 @@
+:root{
+  /* para trabalhar com rem; 1rem = 10px */
+  font-size: 62.5%;
+
+  --color-bg: #F0F0F5;
+  --color-bg-primary: #808080;
+  --color-bg-secondary:#CCCCCC;
+  --color-bg-terciary:#4D4D4D;
+
+
+  /* --color-bg-stronger: #4F0707;
+  --color-bg-lighter: #900D0D;
+
+  --color-btn-primary: #068F7A;
+  --color-btn-primary-hover: #02A65F;
+  --color-btn-secondary: transparent;
+  --color-btn-secondary-hover: #CF1B1B;
+
+  --color-text-primary: #4F0707;
+  --color-text-secondary: #f0f0f5;
+  --color-text-input: #606060; */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  /* display: flex;
+  flex-direction: column; */
+  min-height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: var(--color-bg);
+}
+
+a{
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
